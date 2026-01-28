@@ -9,7 +9,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 50px;
-  padding-right: 50px;
 
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -22,6 +21,7 @@ body {
 header {
   display: flex;
   align-items: center;
+  padding-right: 50px;
 }
 
 header a:hover {
@@ -81,9 +81,13 @@ main h3 {
   margin-top: 20px;
 }
 
-.main-buttons img{
-    width: 20px;
-    height: 20px;
+.main-buttons > :last-child {
+  margin-left: auto;
+}
+
+.main-buttons img {
+  width: 20px;
+  height: 20px;
 }
 
 .play-button {
@@ -114,23 +118,58 @@ main h3 {
   gap: 8px;
 }
 
-footer{
-    margin-top: 30px;
+.age-thing {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  height: 40px;
+  width: 100px;
+  background-color: rgba(90, 61, 62, 0.7);
+}
+.age-thing img {
+  margin-right: auto;
+  height: 100%;
+  width: 35%;
 }
 
-footer h4{
-    font-size: 1.2em;
-    font-weight: 400;
+.main-buttons button:hover {
+  scale: 1.05;
+  cursor: pointer;
 }
 
-.slide-show{
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-    width: 100%;
+footer {
+  margin-top: 30px;
 }
 
-footer img{
-    height: 200px;
-    width: 16%;
+footer h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.slide-show {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+footer img {
+  height: 200px;
+  width: 16%;
+}
+
+footer aside {
+  width: 130px;
+  height: 200px;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.85)),
+    url("images/netflix-slide7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer img:hover {
+  scale: 1.05;
+  cursor: pointer;
 }
