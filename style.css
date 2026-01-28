@@ -4,10 +4,11 @@
 }
 
 body {
-  background-image: url("images/netflix-bakground.jpeg");
-  background-position: top;
+  background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.8)), url("images/netflix-bakground.jpeg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: darken;
   padding-left: 50px;
 
   color: white;
@@ -68,6 +69,7 @@ main img {
 }
 main h1 {
   font-size: 6em;
+  font-family:'Times New Roman', Times, serif;
   margin-top: 0;
 }
 main h3 {
