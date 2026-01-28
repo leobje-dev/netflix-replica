@@ -114,3 +114,23 @@ main h3 {
   gap: 8px;
 }
 
+footer{
+    margin-top: 30px;
+}
+
+footer h4{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.slide-show{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+footer img{
+    height: 200px;
+    width: 16%;
+}
