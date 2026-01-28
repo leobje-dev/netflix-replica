@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/netflix-bakground.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#head-logo{
+    min-height: 6em;
+    padding-right: 50px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+header a:hover{
+    scale: 1.05;
+    font-weight: 800;
+}
+
+header img:hover{
+    scale: 1.05;
+}
+
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+nav li{
+    color: white;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search-box{
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
+}
+.search-box a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search-box img{
+    width: 25px;
+    height: 25px;
+}
